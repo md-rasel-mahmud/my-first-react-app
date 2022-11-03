@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    position: relative;
+}
+.show-output {
+    width: 62%;
+    margin-top: 2rem;
+    /* box-shadow: -10px 12px 10px rgb(0 0 0 / 10%); */
+    overflow: hidden;
+    /* border-radius: 2rem; */
+}
+
+/* Animation */
+
+.fadeRight{
+    animation: fadeRight 500ms ease;
+}
+@keyframes fadeRight {
+    from{
+        transform: scaleX(0.8);
+        transform-origin: right;
+    }
+    to{
+        transform: scaleX(1);
+        transform-origin: right;
+
+    }
+}
+
+.fadeLeft{
+    animation: fadeLeft 500ms ease;
+}
+@keyframes fadeLeft {
+    from{
+        transform: scaleX(0.8);
+        transform-origin: left;
+    }
+    to{
+        transform: scaleX(1);
+        transform-origin: left;
+
+    }
+}
+
+
+.fadeDown{
+    animation: fadeDown 500ms ease;
+}
+@keyframes fadeDown {
+    from{
+
+        transform: translateY(2rem);
+    }
+    to{
+
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        justify-content: center;
+        width: 100%;
+    }
+}

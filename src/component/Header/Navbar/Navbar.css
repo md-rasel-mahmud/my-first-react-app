@@ -1,0 +1,24 @@
+nav {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    gap: .5rem;
+    padding: .3rem 1.5rem;
+    position: fixed;
+    border-radius: 2rem;
+    bottom: 3.5rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 5;
+    margin-left: .1rem;
+
+}
+a{
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+}
+nav a i {
+    font-size: .8rem;
+}
+nav a:hover{
+    background: var(--color-bg);
+}

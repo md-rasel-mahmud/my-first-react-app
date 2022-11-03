@@ -1,0 +1,29 @@
+form input{
+    background: var(--bg-primay-variant);
+    border: .2rem solid var(--color-primary);
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    margin: .3rem 0;
+    outline: none;    
+}
+.input-discribe {
+    height: 8rem;
+    border-radius: 2rem;
+}
+#CardComponent-area span a{
+    color: var(--color-light);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#CardComponent-area span i{
+    color: var(--color-primary);
+    background: var(--color-bg-variant);
+    border-radius: 50%;
+    font-size: .7rem;
+    padding: .5rem;
+    margin-bottom: .2rem;
+}
+#CardComponent-area span .fa-map-marker-alt{
+    padding: .5rem .6rem;
+}
